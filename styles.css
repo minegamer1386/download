@@ -1,48 +1,85 @@
-.heder{
-    background-color: blue;
+body{
+    background-color: #666666;
+    margin: 0px;
+    padding: 0px;
+    direction: rtl;
+
 }
-.heder img{
-width:1350px;
-height:250px ; 
-  
+#container{
+    width: 800px;
+    margin:0px auto;
+    background: white;
 }
-.heder h1{
-    font-size: 60px;
+#heder{
+    height: 140px;
+    background:url(mine.jpg) no-repeat;
+    
+}
+#title{
+    font-size: 36px;
+    position: relative;
+    top: 5px;
+    right: 240px;
+    color: aqua;
+}   
+#dis{
+    
+    font-size: 26px;
+    position: relative;
+    right: 240px;
+    color: brown;
+
+}
+#topm{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: black;
+    background-image: url(fff.jpg);
+    background-position: center center;
+    background-repeat: repeat-x;
+    float: right;
+} 
+#topm li{
+    display: inline;
+}
+#topm li a{
+    color: #ffffff;
+    padding: 9px 11px;
+    text-decoration: none;
+    border-left: 1px solid #ffffff;
+    float: right;
+}
+#topm li a:hover{
+    background: url(fff.jpg); center center  repeat-x;
+}
+#content{
+    width: 800px;
+    
+
+}
+#rast{
+    width: 250px;
+    background: #cccccc;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#cap{
+    width: 550px;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #ffffff;
+
+}
+.matn{
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color: chartreuse;
-    margin-left: 500px;
+    background-color: lightblue;
+    padding: 5px;
 }
-.foter h3{
-    text-align: center;
-    background-color: crimson;
-   color: floralwhite;
-   width: 100%;
-   position: absolute;
-   bottom: -200;
-
-}
-.canect h4{
-   margin-left: 100px;
-   background-color: black;
-   color: blanchedalmond;
-
-}
-.canect{
- background-color: pink;
- height: 200px;
-}
-.canect a{
-    color: rgb(0, 0, 0);
-    margin-left:100px ;
-    margin-top: 400px;
-
-}
-.canect2{
-margin-top: 100px;
-color: blue;
-background-color: cyan;
-
-}
-.canect2 h3{
-    margin-left: 100px;
+.sub{
+    font-size: 17px;
+    font-weight: bold;
 }
